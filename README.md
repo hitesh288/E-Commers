@@ -9,15 +9,15 @@
     <h1>E-Commerce Website</h1>
     <h2>Table of Contents</h2>
     <ul>
-        <li><a href="#demo">Demo</a></li>
-        <li><a href="#features">Features</a></li>
-        <li><a href="#technologies-used">Technologies Used</a></li>
-        <li><a href="#getting-started">Getting Started</a></li>
-        <li><a href="#usage">Usage</a></li>
-        <li><a href="#contact">Contact</a></li>
+        <li>Demo</li>
+        <li>Features</li>
+        <li>Technologies Used</li>
+        <li>Getting Started</li>
+        <li>Usage</li>
+        <li>Contact</li>
     </ul>
     <h2 id="demo">Demo</h2>
-    <p>Check out the live demo of the website <a href="https://e-commers-d6xbu959z-hitesh-shirudes-projects.vercel.app/">here</a>.</p>
+    <p>Check out the live demo of the website <a href="https://e-commers-ruddy.vercel.app/">here</a>.</p>
     <h2 id="features">Features</h2>
     <ul>
         <li>Responsive design compatible with various devices</li>
@@ -63,7 +63,7 @@
     <p>
         Hitesh Shirude - <a href="https://www.linkedin.com/in/hitesh-shirude-104613245/">Follow Me on LinkedIn</a> - For Any Query Gmail:- hiteshshirude2004@gmail.com.
     </p>
-    <p>Project Link: <a href="https://github.com/yourusername/e-commerce-website">https://github.com/yourusername/e-commerce-website</a></p>
+    <p>Source Code: <a href="https://github.com/hitesh288/E-Commers.git">https://github.com/hitesh288/E-Commers.git</a></p>
       <p>Live Preview: <a href="https://e-commers-ruddy.vercel.app/">https://e-commers-ruddy.vercel.app/</a></p>
 </body>
 </html>
