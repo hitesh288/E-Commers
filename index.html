@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Commerce Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <h1>My Shop</h1>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#men">Men</a></li>
+            <li><a href="#women">Women</a></li>
+            <li><a href="#kids">Kids</a></li>
+            <li><a href="#beauty">Beauty</a></li>
+            <li><a href="#cart">Cart</a></li>
+        </ul>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="active">
+        <h2>Featured Products</h2>
+        <div class="product-list">
+            <!-- Product Items -->
+            <div class="product">
+                <img src="p1 women.jpg" alt="Product 1">
+                <h3>Women Western Dress</h3>
+                <p>$ 99.00</p>
+                <button onclick="addToCart('Product 1', 10)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="p1 kid.webp" alt="Product 1">
+                <h3>Kids Classic Shirt</h3>
+                <p>$ 149.00</p>
+                <button onclick="addToCart('Product 1', 10)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="p1 men.avif" alt="Product 1">
+                <h3>Men Classic Shirt</h3>
+                <p>$ 199.00</p>
+                <button onclick="addToCart('Product 1', 10)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="p2 kid.webp" alt="Product 1">
+                <h3>Kids Classic Shirt</h3>
+                <p>$ 149.00</p>
+                <button onclick="addToCart('Product 1', 10)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="p4 women.webp" alt="Product 1">
+                <h3>Women Western Dress</h3>
+                <p>$ 299.00</p>
+                <button onclick="addToCart('Product 1', 10)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="p2 men.webp" alt="Product 1">
+                <h3>Men Classic Shirt</h3>
+                <p>$ 199.00</p>
+                <button onclick="addToCart('Product 1', 10)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="p2 Beauty.jpg" alt="Product 1">
+                <h3>Natural Beauty Products</h3>
+                <p>$ 1099.00</p>
+                <button onclick="addToCart('Product 1', 10)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="p3 kid.webp" alt="Product 1">
+                <h3>Kids Classic Shirt</h3>
+                <p>$ 49.00</p>
+                <button onclick="addToCart('Product 1', 10)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="p3 women.jpeg" alt="Product 1">
+                <h3>Women Ethentic Dress</h3>
+                <p>$ 399.00</p>
+                <button onclick="addToCart('Product 1', 10)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="p4 kid.webp" alt="Product 1">
+                <h3>Kid Printed Shirt</h3>
+                <p>$ 99.00</p>
+                <button onclick="addToCart('Product 1', 10)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="p5 men.webp" alt="Product 1">
+                <h3>Men Pure Cotton Shirt</h3>
+                <p>$ 399.00</p>
+                <button onclick="addToCart('Product 1', 10)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="p1 beauty.jpg" alt="Product 1">
+                <h3>Beauty Product Pack</h3>
+                <p>$ 599.00</p>
+                <button onclick="addToCart('Product 1', 10)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="p2 women.webp" alt="Product 1">
+                <h3>Women Western Dress</h3>
+                <p>$ 249.00</p>
+                <button onclick="addToCart('Product 1', 10)">Add to Cart</button>
+            </div>
+            <!-- Add more featured products as needed -->
+        </div>
+    </section>
+
+    <!-- Men Section -->
+    <section id="men">
+        <h2>Men's Clothing</h2>
+        <div class="product-list">
+            <div class="product">
+                <img src="p1 men.avif" alt="Men Product 1">
+                <h3>Men's Product 1</h3>
+                <p>$20.00</p>
+                <button onclick="addToCart('Men Product 1', 20)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="p2 men.webp" alt="Product 1">
+                <h3>Women Western Dress</h3>
+                <p>$ 99.00</p>
+                <button onclick="addToCart('Product 1', 10)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="p5 men.jpeg" alt="Product 1">
+                <h3>Kids Classic Shirt</h3>
+                <p>$ 149.00</p>
+                <button onclick="addToCart('Product 1', 10)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="p5 men.webp" alt="Product 1">
+                <h3>Men Classic Shirt</h3>
+                <p>$ 199.00</p>
+                <button onclick="addToCart('Product 1', 10)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="p6 men.jpeg" alt="Product 1">
+                <h3>Kids Classic Shirt</h3>
+                <p>$ 149.00</p>
+                <button onclick="addToCart('Product 1', 10)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="p7 men.jpeg" alt="Product 1">
+                <h3>Women Western Dress</h3>
+                <p>$ 299.00</p>
+                <button onclick="addToCart('Product 1', 10)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="p8 men.jpeg" alt="Product 1">
+                <h3>Men Classic Shirt</h3>
+                <p>$ 199.00</p>
+                <button onclick="addToCart('Product 1', 10)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="p9 men.jpg" alt="Product 1">
+                <h3>Natural Beauty Products</h3>
+                <p>$ 1099.00</p>
+                <button onclick="addToCart('Product 1', 10)">Add to Cart</button>
+            </div>
+          
+            <!-- Add more products as needed -->
+        </div>
+    </section>
+
+    <!-- Women Section -->
+    <section id="women">
+        <h2>Women's Clothing</h2>
+        <div class="product-list">
+            <div class="product">
+                <img src="p1 women.jpg" alt="Women Product 1">
+                <h3>Women's Product 1</h3>
+                <p>$30.00</p>
+                <button onclick="addToCart('Women Product 1', 30)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="p2 women.webp" alt="Product 1">
+                <h3>Women Western Dress</h3>
+                <p>$ 99.00</p>
+                <button onclick="addToCart('Product 1', 10)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="p3 women.jpeg" alt="Product 1">
+                <h3>Kids Classic Shirt</h3>
+                <p>$ 149.00</p>
+                <button onclick="addToCart('Product 1', 10)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="p4 women.webp" alt="Product 1">
+                <h3>Men Classic Shirt</h3>
+                <p>$ 199.00</p>
+                <button onclick="addToCart('Product 1', 10)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="p5 women.jpeg" alt="Product 1">
+                <h3>Kids Classic Shirt</h3>
+                <p>$ 149.00</p>
+                <button onclick="addToCart('Product 1', 10)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="p6 women.jpeg" alt="Product 1">
+                <h3>Women Western Dress</h3>
+                <p>$ 299.00</p>
+                <button onclick="addToCart('Product 1', 10)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="p7 women.jpeg" alt="Product 1">
+                <h3>Men Classic Shirt</h3>
+                <p>$ 199.00</p>
+                <button onclick="addToCart('Product 1', 10)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="p8 women.jpeg" alt="Product 1">
+                <h3>Natural Beauty Products</h3>
+                <p>$ 1099.00</p>
+                <button onclick="addToCart('Product 1', 10)">Add to Cart</button>
+            </div>
+            <!-- Add more products as needed -->
+        </div>
+    </section>
+
+    <!-- Kids Section -->
+    <section id="kids">
+        <h2>Kids' Clothing</h2>
+        <div class="product-list">
+            <div class="product">
+                <img src="kids1.jpg" alt="Kids Product 1">
+                <h3>Kids' Product 1</h3>
+                <p>$12.00</p>
+                <button onclick="addToCart('Kids Product 1', 12)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="p1 women.jpg" alt="Product 1">
+                <h3>Women Western Dress</h3>
+                <p>$ 99.00</p>
+                <button onclick="addToCart('Product 1', 10)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="p1 kid.webp" alt="Product 1">
+                <h3>Kids Classic Shirt</h3>
+                <p>$ 149.00</p>
+                <button onclick="addToCart('Product 1', 10)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="p1 men.avif" alt="Product 1">
+                <h3>Men Classic Shirt</h3>
+                <p>$ 199.00</p>
+                <button onclick="addToCart('Product 1', 10)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="p2 kid.webp" alt="Product 1">
+                <h3>Kids Classic Shirt</h3>
+                <p>$ 149.00</p>
+                <button onclick="addToCart('Product 1', 10)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="p4 women.webp" alt="Product 1">
+                <h3>Women Western Dress</h3>
+                <p>$ 299.00</p>
+                <button onclick="addToCart('Product 1', 10)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="p2 men.webp" alt="Product 1">
+                <h3>Men Classic Shirt</h3>
+                <p>$ 199.00</p>
+                <button onclick="addToCart('Product 1', 10)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="p2 Beauty.jpg" alt="Product 1">
+                <h3>Natural Beauty Products</h3>
+                <p>$ 1099.00</p>
+                <button onclick="addToCart('Product 1', 10)">Add to Cart</button>
+            </div>
+            <!-- Add more products as needed -->
+        </div>
+    </section>
+
+    <!-- Beauty Section -->
+    <section id="beauty">
+        <h2>Beauty Products</h2>
+        <div class="product-list">
+            <div class="product">
+                <img src="beauty1.jpg" alt="Beauty Product 1">
+                <h3>Beauty Product 1</h3>
+                <p>$22.00</p>
+                <button onclick="addToCart('Beauty Product 1', 22)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="p1 women.jpg" alt="Product 1">
+                <h3>Women Western Dress</h3>
+                <p>$ 99.00</p>
+                <button onclick="addToCart('Product 1', 10)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="p1 kid.webp" alt="Product 1">
+                <h3>Kids Classic Shirt</h3>
+                <p>$ 149.00</p>
+                <button onclick="addToCart('Product 1', 10)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="p1 men.avif" alt="Product 1">
+                <h3>Men Classic Shirt</h3>
+                <p>$ 199.00</p>
+                <button onclick="addToCart('Product 1', 10)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="p2 kid.webp" alt="Product 1">
+                <h3>Kids Classic Shirt</h3>
+                <p>$ 149.00</p>
+                <button onclick="addToCart('Product 1', 10)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="p4 women.webp" alt="Product 1">
+                <h3>Women Western Dress</h3>
+                <p>$ 299.00</p>
+                <button onclick="addToCart('Product 1', 10)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="p2 men.webp" alt="Product 1">
+                <h3>Men Classic Shirt</h3>
+                <p>$ 199.00</p>
+                <button onclick="addToCart('Product 1', 10)">Add to Cart</button>
+            </div>
+            <div class="product">
+                <img src="p2 Beauty.jpg" alt="Product 1">
+                <h3>Natural Beauty Products</h3>
+                <p>$ 1099.00</p>
+                <button onclick="addToCart('Product 1', 10)">Add to Cart</button>
+            </div>
+            <!-- Add more products as needed -->
+        </div>
+    </section>
+
+    <!-- Cart Section -->
+    <section id="cart">
+        <h2>Your Cart</h2>
+        <div class="cart-list">
+            <p id="emptyCartMessage">Your cart is empty.</p>
+            <ul id="cartItems" class="hidden">
+                <!-- Cart items will be dynamically inserted here -->
+            </ul>
+        </div>
+        <h3>Total: $<span id="totalAmount">0.00</span></h3>
+        
+        <!-- Payment Options -->
+        <h3>Payment Options</h3>
+        <form id="paymentForm">
+            <label for="cardNumber">Card Number:</label>
+            <input type="text" id="cardNumber" name="cardNumber" placeholder="1234 5678 9123 4567" required>
+            
+            <label for="expiryDate">Expiry Date:</label>
+            <input type="text" id="expiryDate" name="expiryDate" placeholder="MM/YY" required>
+            
+            <label for="cvv">CVV:</label>
+            <input type="text" id="cvv" name="cvv" placeholder="123" required>
+            
+            <button type="button" onclick="checkout()">Checkout</button>
+        </form>
+    </section>
+    <!-- Payment Options -->
+    
+
+    <script src="script.js"></script>
+</body>
+
+</html>
