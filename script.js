@@ -40,6 +40,16 @@ function removeFromCart(name) {
     cart = cart.filter(item => item.name !== name);
     displayCart();
 }
+function SaveLater() {
+    alert(`Your Product is Added Save Later for${document.getElementById('totalAmount').innerText}.`);
+    cart = [];
+    displayCart();
+}
+function applyPromoCode() {
+    const promoCode = document.getElementById('promoCode').value;
+    // Implement promo code logic here
+    alert(`Promo code ${promoCode} applied!`);
+}
 
 function checkout() {
     alert(`Thank you for your purchase! Your total is $${document.getElementById('totalAmount').innerText}.`);
